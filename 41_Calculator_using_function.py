@@ -13,7 +13,6 @@ def calculate(a, b, operator):
     else:
         return "Invalid operator"
 
-# Example usage
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 op = input("Enter operator (+, -, *, /): ")
