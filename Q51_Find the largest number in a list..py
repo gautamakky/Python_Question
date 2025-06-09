@@ -1,4 +1,4 @@
-n = list(map(int,input("Enter numbers to list, spaces seprated: ").split()))
+n = list(map(int,input("Enter numbers to list, spaces separated: ").split()))
 m = n
 max = n[0]
 for i in range(1,len(n)):
