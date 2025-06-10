@@ -7,5 +7,5 @@ for i in n:
     else:
         if i.islower():
             lower_count +=1
-print(f'There are {upper_count} uppercase and {lower_count} lowercase letters in this string {n}')
+print(f'There are {upper_count} uppercase and {lower_count} lowercase letters in this string "{n}"')
 
