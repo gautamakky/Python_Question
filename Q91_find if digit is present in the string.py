@@ -1,6 +1,7 @@
-name = input("enter your name: ")
+name = input("enter your name: ").split()
 for i in name:
-    if i.isdigit():
-        print("string contains digit")
-    else:
-        print("string not contains digit")
+    for j in i:
+        if j.isdigit():
+            print(i,end=" ")
+            break
+
